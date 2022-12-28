@@ -14,7 +14,7 @@ This boilerplate was made using the official [Vite](https://vitejs.dev) template
 - [Axios](https://axios-http.com/docs/intro)
 - [Morgan](https://www.npmjs.com/package/morgan)
 - [jsonwebtoken](https://www.npmjs.com/package/jsonwebtoken)
-- [bcryp](https://www.npmjs.com/package/bcrypt)
+- [bcrypt](https://www.npmjs.com/package/bcrypt)
 - [dotenv](https://www.npmjs.com/package/dotenv)
 - [Nodemon](https://www.npmjs.com/package/nodemon)
 
