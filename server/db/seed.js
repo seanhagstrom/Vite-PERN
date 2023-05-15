@@ -37,7 +37,6 @@ const createInitialUsers = async () => {
   console.log('Finished adding users!');
 };
 
-// const rebuildDB = (async () => {
 const rebuildDB = async () => {
   try {
     await dropTables();
@@ -51,6 +50,5 @@ const rebuildDB = async () => {
     console.log("Database has been rebuilt, and you're good to go!");
   }
 };
-// })();
 
 rebuildDB();
