@@ -43,7 +43,7 @@ rm -rf .git
 git init
 ```
 
-> Before you run `npm run seed`, you'll need to create your database in `psql`. You can do this from the CLI with the following command:
+> Before you run `npm run seed`, you'll need to update the package.json name to the name of your db and create your database in `psql`. You can do this from the CLI with the following command:
 
 ```bash
 createdb your_database_name
