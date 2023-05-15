@@ -5,9 +5,9 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
-    "server:dev": "nodemon index.js",
-    "start:dev": "(npm run dev --prefix client) & nodemon index.js",
-    "seed": "node db/seed.js"
+    "server:dev": "nodemon server/index.js",
+    "start:dev": "(npm run dev --prefix client) & nodemon server/index.js",
+    "seed": "node server/db/seed.js"
   },
   "author": "Sean Hagstrom",
   "license": "ISC",

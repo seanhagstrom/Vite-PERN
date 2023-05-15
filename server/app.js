@@ -1,6 +1,6 @@
 const express = require('express');
 const path = require('path');
-const { client } = require('./db');
+const client = require('./db/client');
 
 client.connect();
 const app = express();
